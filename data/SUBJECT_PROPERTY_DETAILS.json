@@ -1,0 +1,37 @@
+{
+  "property_details": {
+    "id": "",
+    "property_address": {
+      "id": "9607454d-945d-5d51-aa1f-635b0f6bf872",
+      "token": null,
+      "street": "18201 N 22nd Ave",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zip": "85023",
+      "county": "Maricopa",
+      "subdivision": "SUMMERSET",
+      "latitude": 33.651922,
+      "longitude": -112.106152,
+      "apn": "208-05-205",
+      "unit": null
+    },
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": null,
+    "brokerage_region": null,
+    "year_built": 1973,
+    "sqft": 1248,
+    "lot_number": "52",
+    "lot_sqft": 8115,
+    "block": null,
+    "tax_legal_description": "LOT 52 SUMMERSET MCR 014604",
+    "dwelling_type": "single_family",
+    "garage_spaces": 2,
+    "interior_stories": null,
+    "exterior_stories": 1,
+    "has_community_pool": null,
+    "has_private_pool": false,
+    "has_septic": false,
+    "has_solar_panels": false
+  }
+}
