@@ -16,6 +16,7 @@ def load_subject_property() -> Dict[str, Any]:
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
+            print(f"Loaded subject property details from {file_path} and {data}")
             return data.get('property_details', {})
     except FileNotFoundError:
         print(f"Warning: {file_path} not found")
