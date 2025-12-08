@@ -247,13 +247,13 @@ class PriceEstimator:
         
         return confidence
     
-    def _get_methodology_description(self, comparables: List[Dict[str, Any]]) -> str:
-        """Generate description of pricing methodology"""
-        avg_knn_distance = statistics.mean([c.get('knn_distance', 0) for c in comparables])
-        return (
-            f"Price estimated using K-Nearest Neighbors (KNN) regression with K={len(comparables)} "
-            f"comparable properties. KNN algorithm selected the most similar properties based on "
-            f"geographic location, size, bed/bath configuration, age, and sale recency. "
-            f"Weighted average of sale prices using inverse distance weighting (avg distance: {avg_knn_distance:.4f}). "
-            f"Additional adjustments applied for property condition and key features."
-        )
+    # def _get_methodology_description(self, comparables: List[Dict[str, Any]]) -> str:
+    #     """Generate description of pricing methodology"""
+    #     avg_knn_distance = statistics.mean([c.get('knn_distance', 0) for c in comparables])
+    #     return (
+    #         f"Price estimated using K-Nearest Neighbors (KNN) regression with K={len(comparables)} "
+    #         f"comparable properties. KNN algorithm selected the most similar properties based on "
+    #         f"geographic location, size, bed/bath configuration, age, and sale recency. "
+    #         f"Weighted average of sale prices using inverse distance weighting (avg distance: {avg_knn_distance:.4f}). "
+    #         f"Additional adjustments applied for property condition and key features."
+    #     )
